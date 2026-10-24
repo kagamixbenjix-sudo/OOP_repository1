@@ -16,4 +16,9 @@ public class VariableTypesPrac {
         double Averageattendance = (studentattendance / studentcount) * 100.0;
         return Averageattendance;
     }
+    public void displaystat(double passed, double studentattendance) {
+
+        double passpercentage = Passpercentage(passed);
+        double Averageattendance = attendancecalculation(studentattendance);
+    }
 }
