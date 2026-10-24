@@ -26,4 +26,10 @@ public class VariableTypesPrac {
         System.out.println("The passpercentage is " + passpercentage + "%");
         System.out.println("The Average attendance is " + Averageattendance + "%");
     }
+
+    public static void main(String[] args) {
+        VariableTypesPrac course1 = new VariableTypesPrac("BIT", 60);
+        VariableTypesPrac course2 = new VariableTypesPrac("BSCS", 70);
+        VariableTypesPrac course3 = new VariableTypesPrac("BSSE", 30);
+    }
 }
