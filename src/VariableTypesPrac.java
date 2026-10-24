@@ -31,5 +31,11 @@ public class VariableTypesPrac {
         VariableTypesPrac course1 = new VariableTypesPrac("BIT", 60);
         VariableTypesPrac course2 = new VariableTypesPrac("BSCS", 70);
         VariableTypesPrac course3 = new VariableTypesPrac("BSSE", 30);
+
+        course1.displaystat(45, 50);
+        course2.displaystat(50, 60);
+        course3.displaystat(20, 25);
+
+        System.out.println("Total students across all courses: " + VariableTypesPrac.Totalstudent);
     }
 }
