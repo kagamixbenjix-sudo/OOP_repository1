@@ -9,4 +9,7 @@ public class VariableTypesPrac {
         this.studentcount = studentcount;
         Totalstudent = Totalstudent + studentcount;
     }
+    public double Passpercentage(double passedStudents) {
+        return (passedStudents / studentcount) * 100.0;
+    }
 }
