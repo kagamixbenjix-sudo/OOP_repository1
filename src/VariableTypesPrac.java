@@ -12,4 +12,8 @@ public class VariableTypesPrac {
     public double Passpercentage(double passedStudents) {
         return (passedStudents / studentcount) * 100.0;
     }
+    public double attendancecalculation(double studentattendance) {
+        double Averageattendance = (studentattendance / studentcount) * 100.0;
+        return Averageattendance;
+    }
 }
