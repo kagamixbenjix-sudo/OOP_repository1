@@ -7,5 +7,6 @@ public class VariableTypesPrac {
     public VariableTypesPrac(String coursename, int studentcount) {
         this.coursename = coursename;
         this.studentcount = studentcount;
+        Totalstudent = Totalstudent + studentcount;
     }
 }
