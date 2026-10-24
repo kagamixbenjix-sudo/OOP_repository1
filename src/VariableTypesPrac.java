@@ -20,5 +20,10 @@ public class VariableTypesPrac {
 
         double passpercentage = Passpercentage(passed);
         double Averageattendance = attendancecalculation(studentattendance);
+
+        System.out.println("The coursename is " + coursename);
+        System.out.println("The number of students in this course is " + studentcount);
+        System.out.println("The passpercentage is " + passpercentage + "%");
+        System.out.println("The Average attendance is " + Averageattendance + "%");
     }
 }
